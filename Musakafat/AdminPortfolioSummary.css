@@ -1,0 +1,64 @@
+.summary-container {
+  width: 70%;
+  margin: 30px auto;
+  margin-left: 300px;
+  gap: 32px;
+  display: grid;
+  padding: 30px 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.summary-header h2 {
+  margin: 0;
+}
+
+.summary-header p {
+  margin: 4px 0 0;
+  color: #6b7280;
+}
+
+.filters input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.summary-table thead {
+  background-color: #f3f4f6;
+}
+
+
+.status-paid td {
+  background-color: #dcfce7;
+}
+
+.status-overdue td {
+  background-color: #fee2e2;
+}
+
+.status-pending td,
+.status-partial td {
+  background-color: #fef9c3;
+}

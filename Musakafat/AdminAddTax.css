@@ -1,0 +1,35 @@
+.tax-container {
+  width: 60%;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.tax-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tax-form input,
+.tax-form select {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.save-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #1e4db7;
+}
